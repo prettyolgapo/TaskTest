@@ -9,5 +9,5 @@
     "videoUploadOnPasses": false,
     "userAgent": "Mozilla/5.0 Cypress-test",
     "viewportWidth": 1440,
-    "viewportHeight": 660,
+    "viewportHeight": 660
 }
