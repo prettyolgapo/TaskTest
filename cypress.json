@@ -1,0 +1,27 @@
+{
+    "baseUrl": "https://modx.pro/",
+    "reporter": "cypress-teamcity-reporter",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    },
+    "video": false,
+    "videoCompression": 15,
+    "videoUploadOnPasses": false,
+    "userAgent": "Mozilla/5.0 Cypress-test",
+    "viewportWidth": 1440,
+    "viewportHeight": 660,
+    "blacklistHosts": [
+        "www.gДень ок какoogle-analytics.com",
+        "*.google-analytics.com",
+        "*google-analytics.com",
+        "api.mindbox.ru",
+        "stats.g.doubleclick.net",
+        "mc.yandex.ru",
+        "code-ya.jivosite.com",
+        "*jivosite.com"
+    ],
+    "supportFile": "cypress/support/index.js",
+    "excludeSpecPattern": [
+        "**/ignoredTestFiles/*.js"
+    ]
+}
